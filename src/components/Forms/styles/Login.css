@@ -1,0 +1,47 @@
+.LoginForm{
+    background-color: rgb(53, 53, 53);
+    border:1px solid rgb(26, 26, 26);
+    flex:3;
+    flex-direction:column;
+    max-width:500px;
+    margin:5px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow:hidden;
+    height: fit-content;
+}
+.TitleLogin{
+    color: white;
+}
+.InputLogin{
+    border-radius: 10px;
+    height:40px;
+    background-color: #212121;
+    border:1px solid rgb(26, 26, 26);
+    margin: 3px;
+    width:90%;
+}
+.BtnLogin{
+    border-radius: 10px;
+    height:40px;
+    background-color: indigo;
+    color: white;
+    border:0px;
+    margin: 3px;
+    width:100px
+}
+.InputLogin:hover{
+    border-radius: 10px;
+    height:40px;
+    background-color: #242424;
+    border:1px solid #181818;
+    margin: 3px;
+    width:90%;
+}
+.InputLogin:focus{
+    border:1px solid indigo;
+    
+}
+.BtnLogin:hover{
+    background-color: rgb(104, 24, 161);
+}

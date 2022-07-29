@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: calc(100vh - 90px - 90px);
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 600px;
+  align-items: center;
+  background-color: white;;
+}
+
+.wrapper {
+  width: 100%;
+}

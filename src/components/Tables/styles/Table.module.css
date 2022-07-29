@@ -1,0 +1,36 @@
+.TableBlock{
+    background-color: #212121;
+    height: fit-content;
+    width: fit-content;
+    z-index: 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border:1px solid rgb(26, 26, 26);
+    overflow: hidden;
+    margin:5px;
+}
+.dataTable{
+    background-color: white;
+    border-collapse: collapse;
+}
+.dataTable td{
+    padding: 10px;
+}
+.dataTable tr{
+    border: 1px solid #212121;
+    border-width: 1px 0px;
+}
+.dataTable th{
+    background-color: #212121;
+    color: white;
+    padding: 5px;
+    border-collapse: collapse;
+}
+.dataTable tr:hover{
+    background-color: gainsboro;
+    
+}
+.dataTable th, .dataTable td{
+    border:1px solid #212121;
+    border-width: 0px 1px;
+}
